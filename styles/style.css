@@ -80,7 +80,7 @@ a {
 }
 
 #skills {
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 }
 .skills {
   display: flex;
@@ -191,6 +191,7 @@ footer p {
 
   .skills {
     border-bottom: none;
+    justify-content: space-around;
   }
 
   .skills p {
@@ -198,24 +199,25 @@ footer p {
   }
 
   .skills p:hover {
-    color: #505050;
+    opacity: 0.6;
   }
 
   /* Show specific Icons on Hover */
   .frontend, .backend {
-    font-size: 2em;
+    font-size: 4em;
     display: inline;
   }
   .frontend-skills, .backend-skills {
     visibility: hidden;
-    font-size: 1.3em;
+    font-size: 2em;
   }
   .frontend-skills i, .backend-skills i {
     padding: 0 10px;
   }
   .frontend:hover + .frontend-skills, .backend:hover + .backend-skills {
     visibility: visible;
-    color: rgb(224, 185, 185);
+    color: #a7a7a7;
+    ;
   }
 }
 
