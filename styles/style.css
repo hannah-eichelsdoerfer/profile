@@ -2,6 +2,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
+  color: rgb(49, 49, 49);
 }
 
 nav {
@@ -132,7 +133,7 @@ a {
 
 .languages i {
   margin-top: 10px;
-  color: white;
+  color: #999b84;
   padding: 0 10px;
 }
 
@@ -183,7 +184,7 @@ footer p {
 
   .skills {
     border-bottom: none;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .skills p {
@@ -233,6 +234,14 @@ footer p {
     width: 60%;
   }
 
+  .introduction {
+    margin-bottom: 150px;
+  }
+
+  .profile-photo {
+    width: 25%;
+  }
+
   .start i {
     display: inline;
     border: none;
@@ -245,12 +254,12 @@ footer p {
     opacity: 0.8;
   }
 
-  .introduction {
-    margin-bottom: 130px;
-  }
-
   .card {
     width: 350px;
     height: 230px;
+  }
+
+  .languages {
+    font-size: 25px;
   }
 }
