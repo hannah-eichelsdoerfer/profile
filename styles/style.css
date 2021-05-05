@@ -128,7 +128,6 @@ a {
 
 .card:hover {
   opacity: 0.8;
-  width: 50%;
 }
 
 .languages i {
@@ -195,10 +194,9 @@ footer p {
     border-bottom: none;
   }
 
-  /* .skills p {
-    margin: 0;
-    padding: 0;
-  } */
+  .skills p {
+    margin: 5px;
+  }
 
   .skills p:hover {
     color: #505050;
