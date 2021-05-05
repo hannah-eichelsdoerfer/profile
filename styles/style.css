@@ -93,13 +93,13 @@ a {
   border-bottom: 1px solid;
 }
 
-.frontend, .backend {
+.frontend, .backend, .tools {
   display: none;
 }
-.frontend-skills, .backend-skills {
+.frontend-skills, .backend-skills, .tool-skills {
   font-size: 1.3em;
 }
-.frontend-skills i, .backend-skills i {
+.frontend-skills i, .backend-skills i, .tool-skills i {
   padding: 0 10px;
 }
 
@@ -186,7 +186,7 @@ footer p {
 
   .skills {
     border-bottom: none;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .skills p {
@@ -198,18 +198,18 @@ footer p {
   }
 
   /* Show specific Icons on Hover */
-  .frontend, .backend {
+  .frontend, .backend, .tools {
     font-size: 4em;
     display: inline;
   }
-  .frontend-skills, .backend-skills {
+  .frontend-skills, .backend-skills, .tool-skills {
     visibility: hidden;
     font-size: 2em;
   }
-  .frontend-skills i, .backend-skills i {
+  .frontend-skills i, .backend-skills i, .tool-skills i {
     padding: 0 10px;
   }
-  .frontend:hover + .frontend-skills, .backend:hover + .backend-skills {
+  .frontend:hover + .frontend-skills, .backend:hover + .backend-skills, .tools:hover + .tool-skills {
     visibility: visible;
     color: #a7a7a7;
     ;
@@ -220,17 +220,15 @@ footer p {
     height: 160px;
   }
 
-  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
   .card {
     background-color: transparent;
     border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px; /* 3D effect */
     padding-bottom: 0;
     border: none;
     box-shadow: none;
   }
   
-  /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -240,12 +238,10 @@ footer p {
     transform-style: preserve-3d;
   }
   
-  /* Do an horizontal flip when you move the mouse over the flip box container */
   .card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
   
-  /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -255,19 +251,15 @@ footer p {
     border: 1px solid gray;
   }
   
-  /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: #c7c8b4;
     color: black;
   }
   
-  /* Style the back side */
   .flip-card-back {
-    display: inherit;
-    color: white;
+    display: block;
     background-color: #999b8465;
     transform: rotateY(180deg);
-    font-size: 16px;
   }
 
   .languages i {
@@ -324,3 +316,4 @@ footer p {
     font-size: 25px;
   }
 }
+
