@@ -170,13 +170,10 @@ footer p {
   .social-media a:hover {
     font-size: 29px;
   }
-
-  .introduction {
-    border-bottom: none;
-  }
   
   #skills {
     margin-bottom: 50px;
+    border-top: none;
   }
 
   .skills {
