@@ -123,10 +123,6 @@ a {
   background-color: #999b8465;
 }
 
-.card img {
-  border: 1px solid;
-}
-
 .card:hover {
   opacity: 0.8;
 }
