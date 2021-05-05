@@ -1,0 +1,144 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #999b84;
+  color: white;
+  padding: 15px 0;
+  text-align: right;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+nav a {
+  padding-right: 20px;
+}
+
+main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.introduction {
+  height: 90vh;
+}
+
+.remove {
+  margin-top: 50px;
+  border: none;
+  background-color: white;
+  font-size: 25px;
+  color: #999b84;
+}
+
+.remove
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.profile-photo {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.social-media {
+  font-size: 20px;
+}
+
+.social-media a:hover {
+  color: #999b84;
+}
+
+/* Show specific Icons on Hover */
+.frontend, .backend {
+  font-size: 2em;
+}
+.frontend-skills, .backend-skills {
+  display: none;
+  font-size: 1.3em;
+}
+.frontend-skills i, .backend-skills i {
+  padding: 10px;
+}
+.frontend:hover + .frontend-skills, .backend:hover + .backend-skills {
+  display: inline;
+  color: rgb(224, 185, 185);
+}
+
+#skills {
+  padding-top: 5px;
+  margin-bottom: 40px;
+}
+
+#projects {
+  padding-top: 5px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #999b8465;
+  width: 250px;
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.card img {
+  border: 1px solid;
+}
+
+.card:hover {
+  opacity: 0.8;
+}
+
+footer {
+  font-size: 12px;
+  font-weight: 100;
+  color: white;
+  margin-top: 25px;
+  background-color: #999b8465;
+  line-height: 35px;
+}
+
+@media(min-width: 740px) {
+  main {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .social-media a {
+    font-size: 30px;
+    padding: 0 12px;
+  }
+
+  .social-media a:hover {
+    font-size: 29px;
+  }
+}
+
+@media(min-width: 1000px) {
+  main {
+    width: 60%;
+  }
+}
