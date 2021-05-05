@@ -35,7 +35,6 @@ main {
 
 .introduction {
   padding-bottom: 30px;
-  border-bottom: 1px solid;
 }
 
 .start i {
@@ -83,6 +82,7 @@ a {
 
 #skills {
   padding-top: 15px;
+  border-top: 1px solid;
 }
 .skills {
   display: flex;
