@@ -80,7 +80,7 @@ a {
 }
 
 #skills {
-  margin-bottom: 50px;
+  padding-top: 15px;
 }
 .skills {
   display: flex;
@@ -177,16 +177,8 @@ footer p {
     border-bottom: none;
   }
   
-  .start i {
-    display: inline;
-    border: none;
-    background-color: white;
-    font-size: 25px;
-    color: #999b84;
-  }
-  
-  .start i:hover {
-    opacity: 0.8;
+  #skills {
+    margin-bottom: 50px;
   }
 
   .skills {
@@ -223,7 +215,38 @@ footer p {
 
 @media(min-width: 1200px) {
   main {
+    width: 70%;
+  }
+
+  .profile-photo {
+    width: 15%;
+  }
+
+  .card {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+@media(min-width: 1600px) {
+  main {
     width: 60%;
+  }
+
+  .start i {
+    display: inline;
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    color: #999b84;
+  }
+  
+  .start i:hover {
+    opacity: 0.8;
+  }
+
+  .introduction {
+    margin-bottom: 130px;
   }
 
   .card {
