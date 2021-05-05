@@ -134,6 +134,10 @@ a {
   padding: 0 10px;
 }
 
+.flip-card-back {
+  display: none;
+}
+
 footer {
   font-size: 12px;
   font-weight: 100;
